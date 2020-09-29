@@ -1,0 +1,26 @@
+a[href^="https://www.google.com/"]:link,
+a[href^="https://www.google.com/"]:visited {
+    color: #008000;
+}
+
+a[href="https://www.link-group.eu/"]:link,
+a[href="https://www.link-group.eu/"]:visited {
+    color: #ff0000;
+}
+
+#second-div p:nth-of-type(odd) {
+    color: #ff0000;
+}
+
+#second-div p:nth-of-type(even) {
+    color: #0000ff;
+}
+
+#first-div > p::after {
+    content: " - NEW";
+    color: #caca00;
+}
+
+body > p:last-child:hover {
+    font-style: italic;
+}
